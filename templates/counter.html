@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Счётчик посещений{% endblock %}
+{% block content %}
+  <h1 class="h3 mb-3">Счётчик посещений</h1>
+  <div class="alert alert-secondary">
+    Вы посетили эту страницу <strong>{{ visits }}</strong> раз(а) в рамках текущей сессии.
+  </div>
+{% endblock %}
+
